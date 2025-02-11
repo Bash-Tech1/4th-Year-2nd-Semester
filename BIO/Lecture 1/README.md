@@ -33,11 +33,7 @@ Simply, Bioinformatics is any activity that deals with biological data using com
 
 ## 7. Describe Shortly, the Flow of Genetic Information According to the 'Central Dogma of Molecular Biology'
 
-![Replication: DNA is copied to produce two identical DNA molecules.
-
-Transcription: The information in a specific segment of DNA (a gene) is transcribed into messenger RNA (mRNA).
-
-Translation: The mRNA is translated into a sequence of amino acids, forming a protein.](image-2.png)
+![](image-2.png)
 
 ## 8. Compare Between Prokaryotes and Eukaryotes
 
