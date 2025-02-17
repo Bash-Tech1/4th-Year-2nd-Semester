@@ -1,12 +1,3 @@
-# Lecture 1 Summary: Introduction & Regular Expressions
-
-## Course Information
-
-- **Code**: COMP 408
-- **Title**: Advanced Topics in AI (NLP & MAS)
-- **Credit Hours**: 3 (Lecture)
-- **Assessment**: Final (105 marks), Midterm (37), Oral (8)
-
 ## NLP Overview
 
 - **Objectives**: Learn NLP fundamentals, computational properties of language, and common algorithms.
