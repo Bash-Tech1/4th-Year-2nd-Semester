@@ -3,7 +3,3 @@
   publish = "Software Engineering"
   command = "echo 'No build needed' && exit 0"
 
-[[redirects]]
-  from = "/*"
-  to = "/index.html"
-  status = 200
