@@ -57,7 +57,7 @@
 
 4. Why are DNA strands antiparallel?
    - a) To allow hydrogen bonding
-   - b) To ensure complementary base pairing\*\*
+   - b) To ensure complementary base pairing
    - c) To prevent mutations
    - d) To speed up replication
 
@@ -66,7 +66,7 @@
 5. What is the output of the FrequentWords algorithm?
 
    - a) All k-mers in the text
-   - b) All most frequent k-mers\*\*
+   - b) All most frequent k-mers
    - c) The longest k-mer
    - d) The rarest k-mer
 
@@ -76,12 +76,12 @@
 
    - a) \(O(n)\)
    - b) \(O(n \cdot k)\)
-   - c) \(O((n-k)^2 \cdot k)\)\*\*
+   - c) \(O((n-k)^2 \cdot k)\)
    - d) \(O(n \log n)\)
 
 7. How does the algorithm COUNT(Text, Pattern) handle overlapping occurrences?
    - a) Ignores them
-   - b) Counts all overlapping matches\*\*
+   - b) Counts all overlapping matches
    - c) Only counts exact matches
    - d) Skips the first match
 
@@ -96,7 +96,7 @@
 
 9. Why are frequent k-mers significant in OriC?
    - a) They encode proteins
-   - b) They serve as binding sites for replication proteins\*\*
+   - b) They serve as binding sites for replication proteins
    - c) They prevent mutations
    - d) They stabilize DNA structure
 
