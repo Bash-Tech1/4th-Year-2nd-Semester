@@ -1,0 +1,8 @@
+[build]
+  publish = "Software Engineering"  # Tells Netlify where your site lives
+  command = "echo 'No build required'"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
