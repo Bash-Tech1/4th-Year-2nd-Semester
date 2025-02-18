@@ -3,220 +3,25 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Lecture 1 Quiz - Software Engineering</title>
-    <style>
-      body {
-        font-family: Arial, sans-serif;
-        text-align: center;
-        background-color: #f4f4f4;
-      }
-      .container {
-        max-width: 600px;
-        margin: auto;
-        background: white;
-        padding: 20px;
-        border-radius: 10px;
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-      }
-      .question {
-        font-size: 18px;
-        margin-bottom: 10px;
-      }
-      .options button {
-        display: block;
-        width: 100%;
-        padding: 10px;
-        margin: 5px 0;
-        font-size: 16px;
-        cursor: pointer;
-        border: none;
-        background-color: #007bff;
-        color: white;
-        border-radius: 5px;
-      }
-      .options button:hover {
-        background-color: #0056b3;
-      }
-      .score {
-        font-size: 20px;
-        margin-top: 20px;
-      }
-      .next-btn {
-        display: none;
-        margin-top: 10px;
-        padding: 10px;
-        font-size: 16px;
-        cursor: pointer;
-        background-color: #28a745;
-        color: white;
-        border: none;
-        border-radius: 5px;
-      }
-      .next-btn:hover {
-        background-color: #218838;
-      }
-      .correct-animation {
-        animation: correctEffect 0.5s ease;
-      }
-
-      @keyframes correctEffect {
-        0% {
-          transform: scale(1);
-        }
-        50% {
-          transform: scale(1.1);
-        }
-        100% {
-          transform: scale(1);
-        }
-      }
-    </style>
+    <title>Software Engineering Quiz</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <div class="container">
-      <h2>Lecture 1 Quiz - Software Engineering</h2>
-      <p class="question">Loading question...</p>
+      <p class="question"></p>
       <div class="options"></div>
-      <button class="next-btn" onclick="nextQuestion()">Next</button>
+      <button class="next-btn" onclick="nextQuestion()">Next Question →</button>
       <p class="score">Score: <span id="score">0</span></p>
     </div>
 
     <audio
       id="correctSound"
-      src="https://www.soundjay.com/button/beep-07.wav"
+      src="https://www.myinstants.com/media/sounds/correct.mp3"
     ></audio>
     <audio
       id="wrongSound"
-      src="https://www.soundjay.com/button/beep-10.wav"
+      src="https://www.myinstants.com/media/sounds/wrong.mp3"
     ></audio>
-
-    <script>
-      const quizData = [
-        // Multiple-Choice Questions (1-30)
-        {
-          question: "What is the primary goal of software engineering?",
-          options: [
-            "Writing code quickly",
-            "Developing cheaper, better, and faster software",
-            "Designing marketing strategies",
-            "Selling hardware systems",
-          ],
-          answer: "Developing cheaper, better, and faster software",
-        },
-        {
-          question: "Which is an example of system software?",
-          options: [
-            "Airline seat reservation system",
-            "Compilers",
-            "Mobile games",
-            "Microsoft Word",
-          ],
-          answer: "Compilers",
-        },
-        {
-          question:
-            "What percentage of software engineering costs is typically allocated to testing?",
-          options: ["20%", "40%", "60%", "80%"],
-          answer: "40%",
-        },
-        {
-          question: "Customized software is developed for:",
-          options: [
-            "A general market",
-            "A specific customer",
-            "Reducing costs",
-            "Legacy systems",
-          ],
-          answer: "A specific customer",
-        },
-        {
-          question: "Which is a productivity problem according to Flynn?",
-          options: [
-            "Poor project control",
-            "Incorrect analysis",
-            "Addressing the wrong problem",
-            "Organizational culture neglect",
-          ],
-          answer: "Poor project control",
-        },
-        {
-          question: "What does adaptive maintenance involve?",
-          options: [
-            "Fixing bugs",
-            "Updating software for new operating systems",
-            "Reducing complexity",
-            "Writing documentation",
-          ],
-          answer: "Updating software for new operating systems",
-        },
-      ];
-      let currentQuestion = 0;
-      let score = 0;
-      let incorrectQuestions = [];
-
-      function shuffleArray(array) {
-        for (let i = array.length - 1; i > 0; i--) {
-          const j = Math.floor(Math.random() * (i + 1));
-          [array[i], array[j]] = [array[j], array[i]];
-        }
-      }
-
-      function loadQuestion() {
-        document.querySelector(".question").innerText =
-          quizData[currentQuestion].question;
-        const optionsDiv = document.querySelector(".options");
-        optionsDiv.innerHTML = "";
-
-        quizData[currentQuestion].options.forEach((option) => {
-          const button = document.createElement("button");
-          button.innerText = option;
-          button.onclick = () => checkAnswer(option, button);
-          optionsDiv.appendChild(button);
-        });
-        document.querySelector(".next-btn").style.display = "none";
-      }
-
-      function checkAnswer(selected, button) {
-        const correctAnswer = quizData[currentQuestion].answer;
-        if (selected === correctAnswer) {
-          score += 10;
-          document.getElementById("score").innerText = score;
-          button.style.backgroundColor = "green";
-          button.classList.add("correct-animation");
-          document.getElementById("correctSound").play();
-          setTimeout(nextQuestion, 800); // Automatically go to the next question after correct answer
-        } else {
-          button.style.backgroundColor = "red";
-          incorrectQuestions.push(quizData[currentQuestion]);
-          document
-            .querySelectorAll(".options button")
-            .forEach((btn) => (btn.disabled = true));
-          document.querySelector(".next-btn").style.display = "block"; // Show next button only if wrong answer
-          document.getElementById("wrongSound").play();
-        }
-      }
-
-      function nextQuestion() {
-        currentQuestion++;
-        if (currentQuestion < quizData.length) {
-          loadQuestion();
-        } else {
-          if (incorrectQuestions.length > 0) {
-            quizData = [...incorrectQuestions];
-            incorrectQuestions = [];
-            currentQuestion = 0;
-            shuffleArray(quizData);
-            loadQuestion();
-          } else {
-            document.querySelector(
-              ".container"
-            ).innerHTML = `<h2>Quiz Completed!</h2><p>Your final score: ${score}</p>`;
-          }
-        }
-      }
-
-      shuffleArray(quizData);
-      loadQuestion();
-    </script>
+    <script src="scripts.js"></script>
   </body>
 </html>
