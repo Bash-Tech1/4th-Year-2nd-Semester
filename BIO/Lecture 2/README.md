@@ -36,13 +36,13 @@
 1. What initiates DNA replication in bacteria?
 
    - a) Helicase
-   - **b) DnaA**
+   - b) DnaA
    - c) RNA polymerase
    - d) DNA ligase
 
 2. Where does replication begin in a bacterial genome?
    - a) Telomere
-   - **b) OriC**
+   - b) OriC
    - c) Centromere
    - d) Promoter
 
@@ -51,13 +51,13 @@
 3. What is the reverse complement of ATGC?
 
    - a) TACG
-   - **b) GCAT**
+   - b) GCAT
    - c) CGTA
    - d) CATG
 
 4. Why are DNA strands antiparallel?
    - a) To allow hydrogen bonding
-   - **b) To ensure complementary base pairing**
+   - b) To ensure complementary base pairing\*\*
    - c) To prevent mutations
    - d) To speed up replication
 
@@ -66,7 +66,7 @@
 5. What is the output of the FrequentWords algorithm?
 
    - a) All k-mers in the text
-   - **b) All most frequent k-mers**
+   - b) All most frequent k-mers\*\*
    - c) The longest k-mer
    - d) The rarest k-mer
 
@@ -76,12 +76,12 @@
 
    - a) \(O(n)\)
    - b) \(O(n \cdot k)\)
-   - **c) \(O((n-k)^2 \cdot k)\)**
+   - c) \(O((n-k)^2 \cdot k)\)\*\*
    - d) \(O(n \log n)\)
 
 7. How does the algorithm COUNT(Text, Pattern) handle overlapping occurrences?
    - a) Ignores them
-   - **b) Counts all overlapping matches**
+   - b) Counts all overlapping matches\*\*
    - c) Only counts exact matches
    - d) Skips the first match
 
@@ -90,13 +90,13 @@
 8. DnaA binds to:
 
    - a) RNA primers
-   - **b) DnaA boxes**
+   - b) DnaA boxes
    - c) Telomeres
    - d) Histones
 
 9. Why are frequent k-mers significant in OriC?
    - a) They encode proteins
-   - **b) They serve as binding sites for replication proteins**
+   - b) They serve as binding sites for replication proteins\*\*
    - c) They prevent mutations
    - d) They stabilize DNA structure
 
