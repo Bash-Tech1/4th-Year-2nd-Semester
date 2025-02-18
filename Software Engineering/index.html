@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Software Engineering Course</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      }
+
+      body {
+        background: #f0f2f5;
+        min-height: 100vh;
+      }
+
+      .container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 2rem;
+      }
+
+      header {
+        text-align: center;
+        margin-bottom: 3rem;
+      }
+
+      h1 {
+        color: #e8b11a;
+        font-size: 2.5rem;
+        margin-bottom: 0.5rem;
+      }
+
+      .course-code {
+        color: #5f6368;
+        font-size: 1.2rem;
+      }
+
+      .lecture-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 2rem;
+      }
+
+      .lecture-card {
+        background: white;
+        border-radius: 10px;
+        padding: 1.5rem;
+        text-decoration: none;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      }
+
+      .lecture-card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+      }
+
+      .lecture-number {
+        color: #e8b11a;
+        font-size: 1.5rem;
+        font-weight: 600;
+        margin-bottom: 1rem;
+      }
+
+      .lecture-info {
+        color: #5f6368;
+        line-height: 1.6;
+      }
+
+      @media (max-width: 768px) {
+        .container {
+          padding: 1rem;
+        }
+
+        h1 {
+          font-size: 2rem;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>Software Engineering</h1>
+        <p class="course-code">CS 404 - winter 2025</p>
+      </header>
+
+      <div class="lecture-grid">
+        <a href="lecture1.html" class="lecture-card">
+          <div class="lecture-number">Lecture 1</div>
+          <div class="lecture-info">
+            Introduction to Software Engineering<br />
+            Software Development Life Cycle
+          </div>
+        </a>
+
+        <a href="lecture2.html" class="lecture-card">
+          <div class="lecture-number">Lecture 2</div>
+          <div class="lecture-info">
+            Requirements Engineering<br />
+            Stakeholder Analysis
+          </div>
+        </a>
+
+        <a href="lecture3.html" class="lecture-card">
+          <div class="lecture-number">Lecture 3</div>
+          <div class="lecture-info">
+            Software Design Patterns<br />
+            Architectural Styles
+          </div>
+        </a>
+        <a href="lecture4.html" class="lecture-card">
+          <div class="lecture-number">Lecture 3</div>
+          <div class="lecture-info">
+            Software Design Patterns<br />
+            Architectural Styles
+          </div>
+        </a>
+        <a href="lecture5.html" class="lecture-card">
+          <div class="lecture-number">Lecture 3</div>
+          <div class="lecture-info">
+            Software Design Patterns<br />
+            Architectural Styles
+          </div>
+        </a>
+        <a href="lecture6.html" class="lecture-card">
+          <div class="lecture-number">Lecture 3</div>
+          <div class="lecture-info">
+            Software Design Patterns<br />
+            Architectural Styles
+          </div>
+        </a>
+      </div>
+    </div>
+  </body>
+</html>
