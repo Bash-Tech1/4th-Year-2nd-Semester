@@ -1,4 +1,4 @@
 [build]
-  base = "Software-Engineering/Project"
-  publish = "."
+  base = "Software-Engineering/Project"  # Netlify will treat this as the build directory
+  publish = "."                          # Publishes the "Project" folder as the root
   command = "echo 'No build command needed'"
