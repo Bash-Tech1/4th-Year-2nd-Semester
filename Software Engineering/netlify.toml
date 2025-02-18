@@ -1,5 +1,0 @@
-# netlify.toml (required)
-[build]
-  publish = "Software Engineering"
-  command = "echo 'No build needed' && exit 0"
-
