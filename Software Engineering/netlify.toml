@@ -1,3 +1,9 @@
+# netlify.toml (required)
 [build]
   publish = "Software Engineering"
-  command = "echo 'Static site - no build needed' && exit 0"
+  command = "echo 'No build needed' && exit 0"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
