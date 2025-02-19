@@ -1,5 +1,8 @@
 ---
 import "../styles/index.css";
+import { getCollection } from "astro:content";
+
+const lectures = await getCollection("lectures");
 ---
 
 <!doctype html>
@@ -12,6 +15,34 @@ import "../styles/index.css";
     <title>Software Engineering Course</title>
   </head>
   <body>
-    <h1>Welcome to Quiz Game!!</h1>
+    <div class="container">
+      <header>
+        <h1>Software Engineering</h1>
+        <p class="course-code">CS 404 - winter 2025</p>
+      </header>
+
+      <div class="lecture-grid">
+        {
+          lectures.map((lec) => (
+            <a href="lecture2.html" class="lecture-card">
+              <svg class="progress-ring">
+                <circle
+                  stroke="#e8b11a"
+                  stroke-width="4"
+                  fill="transparent"
+                  r="20"
+                  cx="25"
+                  cy="25"
+                  stroke-dasharray="125.6"
+                  stroke-dashoffset="62.8"
+                />
+              </svg>
+              <div class="lecture-number">Lecture {lec.data.id}</div>
+              <div class="lecture-info">{lec.data.title}</div>
+            </a>
+          ))
+        }
+      </div>
+    </div>
   </body>
 </html>
