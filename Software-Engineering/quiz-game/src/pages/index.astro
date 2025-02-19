@@ -24,7 +24,7 @@ const lectures = await getCollection("lectures");
       <div class="lecture-grid">
         {
           lectures.map((lec) => (
-            <a href="lecture2.html" class="lecture-card">
+            <a href={"/lecture/" + lec.data.id} class="lecture-card">
               <svg class="progress-ring">
                 <circle
                   stroke="#e8b11a"
