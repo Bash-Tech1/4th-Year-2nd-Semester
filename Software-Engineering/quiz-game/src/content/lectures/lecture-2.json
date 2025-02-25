@@ -1,0 +1,1191 @@
+{
+  "id": 2,
+  "title": "Introduction to Software Engineering Software Development Life Cycle",
+  "questions": [
+    {
+      "question": "What are the three layers of Software Engineering (SE) as a layered technology?",
+      "options": [
+        "Process, Methods, Tools",
+        "Planning, Designing, Testing",
+        "Coding, Debugging, Deployment",
+        "Framework, Libraries, Algorithms"
+      ],
+      "answer": "Process, Methods, Tools"
+    },
+    {
+      "question": "Which layer serves as the foundation in Software Engineering's layered technology?",
+      "options": ["Tools", "Methods", "Process", "None of the above"],
+      "answer": "Process"
+    },
+    {
+      "question": "What is the correct order of the layers in Software Engineering?",
+      "options": [
+        "Tools → Methods → Process",
+        "Methods → Process → Tools",
+        "Process → Methods → Tools",
+        "Process → Tools → Methods"
+      ],
+      "answer": "Process → Methods → Tools"
+    },
+    {
+      "question": "What does the 'Methods' layer in Software Engineering primarily focus on?",
+      "options": [
+        "Providing automated solutions",
+        "Defining the systematic approach to software development",
+        "Managing the entire software lifecycle",
+        "None of the above"
+      ],
+      "answer": "Defining the systematic approach to software development"
+    },
+    {
+      "question": "Software Engineering follows a layered technology model, which consists of processes, methods, and tools.",
+      "options": ["True", "False"],
+      "answer": "True"
+    },
+    {
+      "question": "Tools are the foundation of Software Engineering's layered approach.",
+      "options": ["True", "False"],
+      "answer": "False"
+    },
+    {
+      "question": "Methods in Software Engineering are responsible for structuring the development process.",
+      "options": ["True", "False"],
+      "answer": "True"
+    },
+    {
+      "question": "Software Engineering does not require any structured layers; it can be performed randomly.",
+      "options": ["True", "False"],
+      "answer": "False"
+    },
+    {
+      "question": "What is the fundamental layer in the layered technology of Software Engineering?",
+      "options": ["Methods", "Tools", "Process", "Design"],
+      "answer": "Process"
+    },
+    {
+      "question": "Which of the following is NOT a function of the process layer in software engineering?",
+      "options": [
+        "Lays the groundwork for software engineering",
+        "Sets project milestones and guidelines",
+        "Defines coding standards only",
+        "Provides a framework for software project management"
+      ],
+      "answer": "Defines coding standards only"
+    },
+    {
+      "question": "Which layer in the layered technology focuses on requirement analysis, design modeling, and software testing?",
+      "options": ["Process", "Methods", "Tools", "Deployment"],
+      "answer": "Methods"
+    },
+    {
+      "question": "What is the main purpose of the Tools layer in software engineering?",
+      "options": [
+        "Define project guidelines",
+        "Provide automated or semi-automated support for software development",
+        "Establish software maintenance protocols",
+        "Conduct user testing"
+      ],
+      "answer": "Provide automated or semi-automated support for software development"
+    },
+    {
+      "question": "What is Computer-Aided Software Engineering (CASE) mainly used for?",
+      "options": [
+        "Managing databases only",
+        "Integrating software, hardware, and database tools",
+        "Writing software documentation",
+        "Debugging only"
+      ],
+      "answer": "Integrating software, hardware, and database tools"
+    },
+    {
+      "question": "The Process layer is responsible for defining specific tools used in software engineering.",
+      "options": ["True", "False"],
+      "answer": "False"
+    },
+    {
+      "question": "Methods in Software Engineering include activities such as requirement analysis, design modeling, and software testing.",
+      "options": ["True", "False"],
+      "answer": "True"
+    },
+    {
+      "question": "Tools in the layered technology of Software Engineering can be automated or semi-automated to enhance development speed.",
+      "options": ["True", "False"],
+      "answer": "True"
+    },
+    {
+      "question": "The Process layer does not influence project deadlines or quality standards.",
+      "options": ["True", "False"],
+      "answer": "False"
+    },
+    {
+      "question": "Computer-Aided Software Engineering (CASE) tools only focus on software development and do not include hardware or databases.",
+      "options": ["True", "False"],
+      "answer": "False"
+    },
+    {
+      "question": "What is an activity in the software process?",
+      "options": [
+        "A trivial but well-stated objective",
+        "A general objective independent of project size or complexity",
+        "A set of tasks that deliver a major work product",
+        "A phase in the software development lifecycle"
+      ],
+      "answer": "A general objective independent of project size or complexity"
+    },
+    {
+      "question": "Which of the following best describes an action in the software process?",
+      "options": [
+        "A step that involves planning a project",
+        "A trivial but important objective",
+        "A set of tasks that deliver a major work product",
+        "A document used for software modeling"
+      ],
+      "answer": "A set of tasks that deliver a major work product"
+    },
+    {
+      "question": "Which activity in the software process framework focuses on exchanging views between the customer and the software engineer?",
+      "options": ["Planning", "Communication", "Deployment", "Modeling"],
+      "answer": "Communication"
+    },
+    {
+      "question": "What is the primary purpose of the planning activity in the software process?",
+      "options": [
+        "Writing the code",
+        "Designing prototypes and rough drafts",
+        "Defining scheduled tasks, projected risks, and required resources",
+        "Configuring software for the end user"
+      ],
+      "answer": "Defining scheduled tasks, projected risks, and required resources"
+    },
+    {
+      "question": "Which software process activity involves creating prototypes or rough drafts to understand user requirements?",
+      "options": ["Construction", "Modeling", "Deployment", "Planning"],
+      "answer": "Modeling"
+    },
+    {
+      "question": "Which phase of the software process involves code generation and testing?",
+      "options": ["Construction", "Deployment", "Communication", "Modeling"],
+      "answer": "Construction"
+    },
+    {
+      "question": "What is the main goal of the deployment phase in software development?",
+      "options": [
+        "Writing detailed documentation",
+        "Configuring and evaluating the software at the user end",
+        "Planning development schedules",
+        "Identifying project risks"
+      ],
+      "answer": "Configuring and evaluating the software at the user end"
+    },
+    {
+      "question": "An activity in the software process is a specific, well-defined task.",
+      "options": ["True", "False"],
+      "answer": "False"
+    },
+    {
+      "question": "Communication in the software process focuses on exchanging views between customers and software engineers to define requirements.",
+      "options": ["True", "False"],
+      "answer": "True"
+    },
+    {
+      "question": "Planning in the software process involves coding and debugging.",
+      "options": ["True", "False"],
+      "answer": "False"
+    },
+    {
+      "question": "Modeling refers to designing prototypes or drafts to help understand user requirements.",
+      "options": ["True", "False"],
+      "answer": "True"
+    },
+    {
+      "question": "The construction phase in the software process includes code generation and testing.",
+      "options": ["True", "False"],
+      "answer": "True"
+    },
+    {
+      "question": "Deployment involves configuring software at the user end and gathering feedback.",
+      "options": ["True", "False"],
+      "answer": "True"
+    },
+    {
+      "question": "What is the goal of a software engineering project?",
+      "options": [
+        "Writing as much code as possible",
+        "Developing a software system",
+        "Reducing the number of engineers required",
+        "Avoiding documentation"
+      ],
+      "answer": "Developing a software system"
+    },
+    {
+      "question": "Which of the following is an example of a work product in software engineering?",
+      "options": [
+        "Computer hardware",
+        "Project funding",
+        "System model and documentation",
+        "Internet connection"
+      ],
+      "answer": "System model and documentation"
+    },
+    {
+      "question": "Tasks in software engineering consume which of the following?",
+      "options": [
+        "Work products",
+        "User feedback",
+        "Resources like participants, time, and equipment",
+        "Only software tools"
+      ],
+      "answer": "Resources like participants, time, and equipment"
+    },
+    {
+      "question": "What does the software engineering process ultimately produce?",
+      "options": [
+        "More resources",
+        "A fully functional hardware device",
+        "Work products like system models and documents",
+        "A project budget"
+      ],
+      "answer": "Work products like system models and documents"
+    },
+    {
+      "question": "A software engineering project consists of activities (phases) plus actions.",
+      "options": ["True", "False"],
+      "answer": "True"
+    },
+    {
+      "question": "Tasks in software engineering do not consume any resources.",
+      "options": ["True", "False"],
+      "answer": "False"
+    },
+    {
+      "question": "A work product in software engineering can include system models and documentation.",
+      "options": ["True", "False"],
+      "answer": "True"
+    },
+    {
+      "question": "Software engineering does not require time or participants as resources.",
+      "options": ["True", "False"],
+      "answer": "False"
+    },
+    {
+      "question": "Tasks in software engineering only produce software code, nothing else.",
+      "options": ["True", "False"],
+      "answer": "False"
+    },
+    {
+      "question": "What does the term 'System' refer to in software engineering?",
+      "options": [
+        "A physical computer",
+        "The underlying reality that the software interacts with",
+        "Only the graphical user interface (GUI)",
+        "A programming language"
+      ],
+      "answer": "The underlying reality that the software interacts with"
+    },
+    {
+      "question": "Which of the following is an example of a system in software engineering?",
+      "options": [
+        "A web browser",
+        "A ticket distributor for an underground train",
+        "A mobile app",
+        "A JavaScript framework"
+      ],
+      "answer": "A ticket distributor for an underground train"
+    },
+    {
+      "question": "What does the term 'Model' refer to in software engineering?",
+      "options": [
+        "A working prototype of a product",
+        "A complete software system",
+        "An abstraction of reality, a design, or a pattern",
+        "Only 3D representations of a product"
+      ],
+      "answer": "An abstraction of reality, a design, or a pattern"
+    },
+    {
+      "question": "Which of the following can be considered a model in software engineering?",
+      "options": [
+        "A schedule or budget",
+        "A fully implemented system",
+        "A user’s feedback on an application",
+        "A hardware component"
+      ],
+      "answer": "A schedule or budget"
+    },
+    {
+      "question": "What is a work product in software development?",
+      "options": [
+        "A programming language",
+        "A physical object used in coding",
+        "An artifact produced during the development process",
+        "A testing tool"
+      ],
+      "answer": "An artifact produced during the development process"
+    },
+    {
+      "question": "A system in software engineering refers to an abstract representation of a product.",
+      "options": ["True", "False"],
+      "answer": "False"
+    },
+    {
+      "question": "A model in software engineering can be a design, a pattern, or an abstraction of reality.",
+      "options": ["True", "False"],
+      "answer": "True"
+    },
+    {
+      "question": "A work product is any artifact produced during the software development process.",
+      "options": ["True", "False"],
+      "answer": "True"
+    },
+    {
+      "question": "Internal work products are intended for project teams and not for external clients.",
+      "options": ["True", "False"],
+      "answer": "True"
+    },
+    {
+      "question": "A deliverable work product is created for the internal team only.",
+      "options": ["True", "False"],
+      "answer": "False"
+    },
+    {
+      "question": "What is the primary purpose of a model in software engineering?",
+      "options": [
+        "To replace the final system",
+        "To aid in defining, analyzing, and communicating a set of concepts",
+        "To execute the software directly",
+        "To develop a database system"
+      ],
+      "answer": "To aid in defining, analyzing, and communicating a set of concepts"
+    },
+    {
+      "question": "Which of the following is NOT a function of system models?",
+      "options": [
+        "Supporting analysis",
+        "Specification and design",
+        "Direct execution of software",
+        "Validation and communication"
+      ],
+      "answer": "Direct execution of software"
+    },
+    {
+      "question": "Which of the following best describes a real-world example of a model?",
+      "options": [
+        "A woman showcasing designer clothes at a fashion show",
+        "A complete car engine",
+        "A working mobile application",
+        "A fully developed software system"
+      ],
+      "answer": "A woman showcasing designer clothes at a fashion show"
+    },
+    {
+      "question": "System models are specifically developed to support which activities?",
+      "options": [
+        "Debugging only",
+        "Analysis, specification, design, verification, and validation",
+        "Marketing and advertising",
+        "Only documentation"
+      ],
+      "answer": "Analysis, specification, design, verification, and validation"
+    },
+    {
+      "question": "Which of the following is an example of how models are used in software engineering?",
+      "options": [
+        "Writing the final code for deployment",
+        "Representing abstract concepts to validate system requirements",
+        "Developing user interfaces without documentation",
+        "Ignoring stakeholder feedback"
+      ],
+      "answer": "Representing abstract concepts to validate system requirements"
+    },
+    {
+      "question": "Models help in defining, analyzing, and communicating a set of concepts.",
+      "options": ["True", "False"],
+      "answer": "True"
+    },
+    {
+      "question": "System models are only used for final system validation and do not support analysis or design.",
+      "options": ["True", "False"],
+      "answer": "False"
+    },
+    {
+      "question": "A woman modeling clothes at a fashion show is an example of how a model represents a product before final purchase.",
+      "options": ["True", "False"],
+      "answer": "True"
+    },
+    {
+      "question": "Models in software engineering replace the need for actual system implementation.",
+      "options": ["True", "False"],
+      "answer": "False"
+    },
+    {
+      "question": "The purpose of system models includes verification and validation of a system.",
+      "options": ["True", "False"],
+      "answer": "True"
+    },
+    {
+      "question": "What are resources in software engineering?",
+      "options": [
+        "Assets used to accomplish work",
+        "Tasks performed to achieve a goal",
+        "Code written for a software project",
+        "Completed software applications"
+      ],
+      "answer": "Assets used to accomplish work"
+    },
+    {
+      "question": "What is a task in software engineering?",
+      "options": [
+        "A completed project",
+        "A set of multiple activities",
+        "An atomic unit of work that can be managed",
+        "A software application"
+      ],
+      "answer": "An atomic unit of work that can be managed"
+    },
+    {
+      "question": "What defines an activity in software engineering?",
+      "options": [
+        "A large software project",
+        "A set of tasks performed toward a specific purpose",
+        "A testing framework",
+        "A programming language"
+      ],
+      "answer": "A set of tasks performed toward a specific purpose"
+    },
+    {
+      "question": "Which of the following is an example of an activity in software engineering?",
+      "options": [
+        "Compiling code",
+        "Delivery (installing the system)",
+        "Writing a single function",
+        "Debugging a single line of code"
+      ],
+      "answer": "Delivery (installing the system)"
+    },
+    {
+      "question": "What is the purpose of management as an activity in software engineering?",
+      "options": [
+        "Writing documentation",
+        "Controlling and monitoring the project to meet goals such as budget, deadline, and quality",
+        "Only testing the software",
+        "Creating wireframes"
+      ],
+      "answer": "Controlling and monitoring the project to meet goals such as budget, deadline, and quality"
+    },
+    {
+      "question": "Resources in software engineering refer to tasks performed during development.",
+      "options": ["True", "False"],
+      "answer": "False"
+    },
+    {
+      "question": "A task is an atomic unit of work that can be managed.",
+      "options": ["True", "False"],
+      "answer": "True"
+    },
+    {
+      "question": "Activities in software engineering are composed of multiple tasks that work toward a specific purpose.",
+      "options": ["True", "False"],
+      "answer": "True"
+    },
+    {
+      "question": "An example of an activity is installing the system, which is part of the delivery process.",
+      "options": ["True", "False"],
+      "answer": "True"
+    },
+    {
+      "question": "Project management in software engineering is unrelated to budget, deadlines, or quality.",
+      "options": ["True", "False"],
+      "answer": "False"
+    },
+    {
+      "question": "What is a method in software engineering?",
+      "options": [
+        "A collection of rules for representing a model",
+        "A single-use solution for a unique problem",
+        "A repeatable technique for solving a specific problem",
+        "A software tool used for debugging"
+      ],
+      "answer": "A repeatable technique for solving a specific problem"
+    },
+    {
+      "question": "Which of the following is an example of a method?",
+      "options": [
+        "UML diagrams",
+        "A seafood cookbook",
+        "A sorting algorithm",
+        "A hardware component"
+      ],
+      "answer": "A sorting algorithm"
+    },
+    {
+      "question": "What is a methodology in software engineering?",
+      "options": [
+        "A graphical notation for designing user interfaces",
+        "A collection of methods for solving a class of problems",
+        "A programming language",
+        "A specific type of database"
+      ],
+      "answer": "A collection of methods for solving a class of problems"
+    },
+    {
+      "question": "Which of the following is an example of a methodology?",
+      "options": [
+        "UML diagrams",
+        "A seafood cookbook",
+        "A sorting algorithm",
+        "A programming syntax rule"
+      ],
+      "answer": "A seafood cookbook"
+    },
+    {
+      "question": "What is notation in the context of software engineering?",
+      "options": [
+        "A programming methodology",
+        "A database schema",
+        "A graphical or textual set of rules for representing a model",
+        "A debugging tool"
+      ],
+      "answer": "A graphical or textual set of rules for representing a model"
+    },
+    {
+      "question": "Which of the following is an example of a notation?",
+      "options": [
+        "The Roman alphabet",
+        "A JavaScript function",
+        "A web development framework",
+        "A network protocol"
+      ],
+      "answer": "The Roman alphabet"
+    },
+    {
+      "question": "Which of the following is an object-oriented notation used for representing models?",
+      "options": ["Java", "UML (Unified Modeling Language)", "Python", "SQL"],
+      "answer": "UML (Unified Modeling Language)"
+    },
+    {
+      "question": "A method is a repeatable technique for solving a specific problem.",
+      "options": ["True", "False"],
+      "answer": "True"
+    },
+    {
+      "question": "A methodology is a single method used to solve a specific problem.",
+      "options": ["True", "False"],
+      "answer": "False"
+    },
+    {
+      "question": "A seafood cookbook is an example of a methodology.",
+      "options": ["True", "False"],
+      "answer": "True"
+    },
+    {
+      "question": "Notation refers to a graphical or textual set of rules used to represent a model.",
+      "options": ["True", "False"],
+      "answer": "True"
+    },
+    {
+      "question": "UML (Unified Modeling Language) is an example of a methodology.",
+      "options": ["True", "False"],
+      "answer": "False"
+    },
+    {
+      "question": "What is one of the primary benefits of using a methodology in software development?",
+      "options": [
+        "Reducing software complexity without documentation",
+        "Producing better quality products",
+        "Eliminating the need for testing",
+        "Avoiding user feedback"
+      ],
+      "answer": "Producing better quality products"
+    },
+    {
+      "question": "How does a methodology contribute to software documentation?",
+      "options": [
+        "It removes the need for documentation",
+        "It makes documentation unnecessary by simplifying the process",
+        "It ensures better-documented software",
+        "It focuses only on coding without documentation"
+      ],
+      "answer": "It ensures better-documented software"
+    },
+    {
+      "question": "Why is maintainability an important reason to use a methodology?",
+      "options": [
+        "It makes the software more difficult to update",
+        "It ensures the software remains structured and consistent over time",
+        "It eliminates the need for code optimization",
+        "It prevents changes from being made"
+      ],
+      "answer": "It ensures the software remains structured and consistent over time"
+    },
+    {
+      "question": "Which of the following is a direct benefit of using a software development methodology?",
+      "options": [
+        "More acceptable software for users",
+        "Increased software complexity",
+        "Decreased team collaboration",
+        "Faster but lower-quality products"
+      ],
+      "answer": "More acceptable software for users"
+    },
+    {
+      "question": "Which of the following is NOT a reason to use a methodology in software development?",
+      "options": [
+        "Helps produce better quality products",
+        "Ensures software is well-documented",
+        "Makes the software more maintainable and consistent",
+        "Eliminates the need for software updates"
+      ],
+      "answer": "Eliminates the need for software updates"
+    },
+    {
+      "question": "Using a methodology in software engineering helps produce a better-quality product.",
+      "options": ["True", "False"],
+      "answer": "True"
+    },
+    {
+      "question": "A methodology makes software documentation unnecessary.",
+      "options": ["True", "False"],
+      "answer": "False"
+    },
+    {
+      "question": "Software developed using a methodology is typically more maintainable and consistent.",
+      "options": ["True", "False"],
+      "answer": "True"
+    },
+    {
+      "question": "Using a methodology makes the software less acceptable to users.",
+      "options": ["True", "False"],
+      "answer": "False"
+    },
+    {
+      "question": "A software methodology is useful only during the testing phase of development.",
+      "options": ["True", "False"],
+      "answer": "False"
+    },
+    {
+      "question": "Which of the following is an issue when choosing a methodology?",
+      "options": [
+        "Software licenses",
+        "Documentation",
+        "Type of project",
+        "Internet speed"
+      ],
+      "answer": "Type of project"
+    },
+    {
+      "question": "What are examples of application domains that affect methodology selection?",
+      "options": [
+        "Graphic design and video editing",
+        "Real-time, interactive, distributed, and security applications",
+        "Social media marketing and SEO",
+        "Banking and financial transactions only"
+      ],
+      "answer": "Real-time, interactive, distributed, and security applications"
+    },
+    {
+      "question": "Which of the following is a cost associated with choosing a methodology?",
+      "options": [
+        "Staff training",
+        "Customer feedback",
+        "Software functionality",
+        "Market demand"
+      ],
+      "answer": "Staff training"
+    },
+    {
+      "question": "What is a primary concern related to costs when selecting a methodology?",
+      "options": [
+        "The project's complexity",
+        "The need for software licenses",
+        "The type of coding language used",
+        "The number of competitors in the market"
+      ],
+      "answer": "The need for software licenses"
+    },
+    {
+      "question": "Which of the following is NOT listed as a cost in choosing a methodology?",
+      "options": [
+        "Staff training",
+        "Documentation",
+        "Software licenses",
+        "Hardware upgrades"
+      ],
+      "answer": "Hardware upgrades"
+    },
+    {
+      "question": "The type of project (large, small, etc.) is an important issue in choosing a methodology.",
+      "options": ["True", "False"],
+      "answer": "True"
+    },
+    {
+      "question": "Application domains such as real-time systems, security, and distributed applications affect methodology selection.",
+      "options": ["True", "False"],
+      "answer": "True"
+    },
+    {
+      "question": "Staff training is not a significant cost when implementing a new methodology.",
+      "options": ["True", "False"],
+      "answer": "False"
+    },
+    {
+      "question": "Software licenses can contribute to the overall cost of adopting a methodology.",
+      "options": ["True", "False"],
+      "answer": "True"
+    },
+    {
+      "question": "Choosing a methodology is only influenced by project size and not by application domains.",
+      "options": ["True", "False"],
+      "answer": "False"
+    },
+    {
+      "question": "Which of the following represents the correct order of increasing levels of abstraction in software development?",
+      "options": [
+        "Task → Method → Technique → Methodology",
+        "Task → Technique → Method → Methodology",
+        "Method → Task → Technique → Methodology",
+        "Technique → Method → Task → Methodology"
+      ],
+      "answer": "Task → Technique → Method → Methodology"
+    },
+    {
+      "question": "Which of the following is an example of a technique in software development?",
+      "options": [
+        "Writing code",
+        "UML Use Case Diagram",
+        "Debugging",
+        "Compiling a program"
+      ],
+      "answer": "UML Use Case Diagram"
+    },
+    {
+      "question": "Which level of abstraction includes a collection of methods for solving a class of problems?",
+      "options": ["Task", "Technique", "Method", "Methodology"],
+      "answer": "Methodology"
+    },
+    {
+      "question": "What analogy is used to describe specifying software problems and solutions?",
+      "options": [
+        "Writing a book",
+        "Cartoon strip writing",
+        "Painting a masterpiece",
+        "Composing a song"
+      ],
+      "answer": "Cartoon strip writing"
+    },
+    {
+      "question": "What is UML primarily used for in software engineering?",
+      "options": [
+        "Writing executable code",
+        "Graphical representation of object-oriented models",
+        "Testing software bugs",
+        "Debugging software applications"
+      ],
+      "answer": "Graphical representation of object-oriented models"
+    },
+    {
+      "question": "Why is UML used in software development instead of hand-drawn artistic models?",
+      "options": [
+        "It is a programming language",
+        "Most developers are not artists, and UML provides standardized symbols",
+        "UML is easier to use for coding than drawing",
+        "It is required by all software companies"
+      ],
+      "answer": "Most developers are not artists, and UML provides standardized symbols"
+    },
+    {
+      "question": "The increasing levels of abstraction in software development are Task, Technique, Method, and Methodology.",
+      "options": ["True", "False"],
+      "answer": "True"
+    },
+    {
+      "question": "A technique, such as a UML Use Case Diagram, is a more abstract concept than a task.",
+      "options": ["True", "False"],
+      "answer": "True"
+    },
+    {
+      "question": "A methodology is a single method used to solve a specific problem.",
+      "options": ["True", "False"],
+      "answer": "False"
+    },
+    {
+      "question": "Software specification and problem-solving are compared to cartoon strip writing.",
+      "options": ["True", "False"],
+      "answer": "True"
+    },
+    {
+      "question": "UML is a graphical language used in object-oriented development to represent different system models.",
+      "options": ["True", "False"],
+      "answer": "True"
+    },
+    {
+      "question": "UML is primarily used for coding rather than for modeling software systems.",
+      "options": ["True", "False"],
+      "answer": "False"
+    },
+    {
+      "question": "What are the two main categories of UML diagrams?",
+      "options": [
+        "Static and Dynamic diagrams",
+        "Structure and Behavior diagrams",
+        "Physical and Logical diagrams",
+        "System and User diagrams"
+      ],
+      "answer": "Structure and Behavior diagrams"
+    },
+    {
+      "question": "Which type of diagram represents the dynamic behavior of a system?",
+      "options": [
+        "Class diagram",
+        "Package diagram",
+        "Behavior diagram",
+        "Static diagram"
+      ],
+      "answer": "Behavior diagram"
+    },
+    {
+      "question": "Which UML diagram represents the static structure of a system?",
+      "options": [
+        "State diagram",
+        "Sequence diagram",
+        "Class diagram",
+        "Activity diagram"
+      ],
+      "answer": "Class diagram"
+    },
+    {
+      "question": "What does the external perspective model?",
+      "options": [
+        "The data flow between different modules",
+        "The interactions between system components",
+        "The context or environment of the system",
+        "The internal processes of the system"
+      ],
+      "answer": "The context or environment of the system"
+    },
+    {
+      "question": "Which UML perspective focuses on how the system responds to events?",
+      "options": [
+        "Structural perspective",
+        "External perspective",
+        "Behavioral perspective",
+        "Interaction perspective"
+      ],
+      "answer": "Behavioral perspective"
+    },
+    {
+      "question": "Which UML diagram shows the activities involved in a process?",
+      "options": [
+        "Sequence diagram",
+        "Activity diagram",
+        "State diagram",
+        "Class diagram"
+      ],
+      "answer": "Activity diagram"
+    },
+    {
+      "question": "What is the primary purpose of a use-case diagram?",
+      "options": [
+        "To model data flow",
+        "To illustrate how the system interacts with users and external entities",
+        "To define the relationships between system components",
+        "To analyze code dependencies"
+      ],
+      "answer": "To illustrate how the system interacts with users and external entities"
+    },
+    {
+      "question": "Which UML diagram represents interactions between actors and the system?",
+      "options": [
+        "Class diagram",
+        "Sequence diagram",
+        "Use-case diagram",
+        "State diagram"
+      ],
+      "answer": "Use-case diagram"
+    },
+    {
+      "question": "Which UML diagram is used to visualize the flow of events within a system, including choices and iterations?",
+      "options": [
+        "Activity diagram",
+        "Sequence diagram",
+        "State diagram",
+        "Class diagram"
+      ],
+      "answer": "Activity diagram"
+    },
+    {
+      "question": "What does a sequence diagram show?",
+      "options": [
+        "System structure and class relationships",
+        "The interaction between actors and system components over time",
+        "The internal state of a system",
+        "The budget estimation of a project"
+      ],
+      "answer": "The interaction between actors and system components over time"
+    },
+    {
+      "question": "UML diagrams are divided into structure and behavior diagrams.",
+      "options": ["True", "False"],
+      "answer": "True"
+    },
+    {
+      "question": "Behavior diagrams focus on representing the static structure of a system.",
+      "options": ["True", "False"],
+      "answer": "False"
+    },
+    {
+      "question": "A use-case diagram illustrates functional requirements by showing system interactions with external actors.",
+      "options": ["True", "False"],
+      "answer": "True"
+    },
+    {
+      "question": "A state diagram is primarily used to represent static relationships between objects in a system.",
+      "options": ["True", "False"],
+      "answer": "False"
+    },
+    {
+      "question": "Sequence diagrams and use-case diagrams both show interactions, but sequence diagrams focus on the interaction between system objects.",
+      "options": ["True", "False"],
+      "answer": "True"
+    },
+    {
+      "question": "Activity diagrams help visualize processes, including choices, iterations, and concurrency.",
+      "options": ["True", "False"],
+      "answer": "True"
+    },
+    {
+      "question": "The structural perspective in UML is concerned with how the system reacts to different events.",
+      "options": ["True", "False"],
+      "answer": "False"
+    },
+    {
+      "question": "Use-case diagrams provide more detailed information about object interactions than sequence diagrams.",
+      "options": ["True", "False"],
+      "answer": "False"
+    },
+    {
+      "question": "An interaction perspective models how a system's components interact with each other or external entities.",
+      "options": ["True", "False"],
+      "answer": "True"
+    },
+    {
+      "question": "Class diagrams are part of the behavioral diagram category.",
+      "options": ["True", "False"],
+      "answer": "False"
+    },
+    {
+      "question": "What does a use case diagram primarily represent?",
+      "options": [
+        "The internal code structure of a system",
+        "The interactions between users (actors) and the system",
+        "The database schema of a system",
+        "The network architecture of a system"
+      ],
+      "answer": "The interactions between users (actors) and the system"
+    },
+    {
+      "question": "In a use case diagram, what symbol represents an actor?",
+      "options": ["A rectangle", "An oval", "A stick figure", "A triangle"],
+      "answer": "A stick figure"
+    },
+    {
+      "question": "What is the main purpose of primary actors in a use case diagram?",
+      "options": [
+        "To passively receive system responses",
+        "To initiate interactions with the system",
+        "To store system data",
+        "To manage the relationships between use cases"
+      ],
+      "answer": "To initiate interactions with the system"
+    },
+    {
+      "question": "Which of the following is a valid example of a use case?",
+      "options": [
+        "Adding a new employee record",
+        "Defining system architecture",
+        "Implementing a new programming language",
+        "Designing a database schema"
+      ],
+      "answer": "Adding a new employee record"
+    },
+    {
+      "question": "What does the 'include' relationship signify in a use case diagram?",
+      "options": [
+        "A use case that is optional and occurs under specific conditions",
+        "A dependency where the included use case is always executed with the base use case",
+        "A relationship that defines a generalization between use cases",
+        "A relationship that allows one use case to override another"
+      ],
+      "answer": "A dependency where the included use case is always executed with the base use case"
+    },
+    {
+      "question": "What is the key characteristic of an 'extend' relationship?",
+      "options": [
+        "The extended use case always executes",
+        "The extended use case only executes under specific conditions",
+        "The extended use case replaces the base use case",
+        "The extended use case runs before the base use case"
+      ],
+      "answer": "The extended use case only executes under specific conditions"
+    },
+    {
+      "question": "Which of the following best describes 'generalization' in use case diagrams?",
+      "options": [
+        "A hierarchical relationship where a specialized use case inherits behaviors from a general use case",
+        "A relationship where two use cases are executed together",
+        "A relationship where the general use case is optional",
+        "A connection between unrelated use cases"
+      ],
+      "answer": "A hierarchical relationship where a specialized use case inherits behaviors from a general use case"
+    },
+    {
+      "question": "In the patient information system example, which actor is responsible for registering patients?",
+      "options": ["Nurse", "Doctor", "Medical Receptionist", "Manager"],
+      "answer": "Medical Receptionist"
+    },
+    {
+      "question": "Which of the following is NOT an example of a valid use case in an inventory management system?",
+      "options": [
+        "Remove equipment from store",
+        "Add equipment to store",
+        "Change the system's internal code",
+        "Place equipment order"
+      ],
+      "answer": "Change the system's internal code"
+    },
+    {
+      "question": "In the banking system use case diagram, when does the bank act?",
+      "options": [
+        "Before the customer interacts with the system",
+        "Only after the customer initiates an action",
+        "Independently of the customer's actions",
+        "As soon as the system starts"
+      ],
+      "answer": "Only after the customer initiates an action"
+    },
+    {
+      "question": "A use case diagram is primarily used to describe the system’s functional requirements.",
+      "options": ["True", "False"],
+      "answer": "True"
+    },
+    {
+      "question": "A secondary actor in a use case diagram initiates the system's functions.",
+      "options": ["True", "False"],
+      "answer": "False"
+    },
+    {
+      "question": "Use cases are represented by ovals in a use case diagram.",
+      "options": ["True", "False"],
+      "answer": "True"
+    },
+    {
+      "question": "A use case must always have at least one actor interacting with it.",
+      "options": ["True", "False"],
+      "answer": "True"
+    },
+    {
+      "question": "The 'include' relationship means that the base use case can function independently without the included use case.",
+      "options": ["True", "False"],
+      "answer": "False"
+    },
+    {
+      "question": "The 'extend' relationship indicates that the extended use case is always executed when the base use case runs.",
+      "options": ["True", "False"],
+      "answer": "False"
+    },
+    {
+      "question": "A generalization in a use case diagram defines a parent-child relationship between use cases.",
+      "options": ["True", "False"],
+      "answer": "True"
+    },
+    {
+      "question": "The Medical Receptionist in a patient information system has multiple use cases associated with them, such as registering and viewing patient information.",
+      "options": ["True", "False"],
+      "answer": "True"
+    },
+    {
+      "question": "In an inventory management system, adding equipment to a store is a valid use case.",
+      "options": ["True", "False"],
+      "answer": "True"
+    },
+    {
+      "question": "A use case diagram can represent actors that are people, organizations, or external systems.",
+      "options": ["True", "False"],
+      "answer": "True"
+    },
+    {
+      "question": "Which of the following is a key aspect of the requirements analysis phase in software development?",
+      "options": [
+        "Writing the final code",
+        "Defining the purpose of the system based on user needs",
+        "Implementing system security features",
+        "Conducting marketing research"
+      ],
+      "answer": "Defining the purpose of the system based on user needs"
+    },
+    {
+      "question": "What is the primary goal of architectural (system) design?",
+      "options": [
+        "Breaking down the system into simpler modules or components",
+        "Writing the final version of the source code",
+        "Conducting market analysis for the software",
+        "Managing financial costs of software development"
+      ],
+      "answer": "Breaking down the system into simpler modules or components"
+    },
+    {
+      "question": "What does the coding (implementation) phase involve?",
+      "options": [
+        "Writing user manuals",
+        "Translating the object model into source code",
+        "Performing system maintenance",
+        "Conducting risk analysis"
+      ],
+      "answer": "Translating the object model into source code"
+    },
+    {
+      "question": "Which of the following best describes the verification and validation phase?",
+      "options": [
+        "Ensuring the software meets requirements and functions correctly",
+        "Adding additional features to the system",
+        "Installing the software on client devices",
+        "Conducting customer satisfaction surveys"
+      ],
+      "answer": "Ensuring the software meets requirements and functions correctly"
+    },
+    {
+      "question": "What is the purpose of the maintenance phase in software engineering?",
+      "options": [
+        "To develop marketing strategies for the software",
+        "To fix faults and ensure the system remains functional",
+        "To redesign the system from scratch",
+        "To train employees on coding best practices"
+      ],
+      "answer": "To fix faults and ensure the system remains functional"
+    },
+    {
+      "question": "Functional requirements define constraints on the operation of a system.",
+      "options": ["True", "False"],
+      "answer": "False"
+    },
+    {
+      "question": "Architectural design involves breaking the system down into smaller, more manageable modules or components.",
+      "options": ["True", "False"],
+      "answer": "True"
+    },
+    {
+      "question": "The detailed design phase focuses on coding rather than creating an object model with precise descriptions.",
+      "options": ["True", "False"],
+      "answer": "False"
+    },
+    {
+      "question": "Verification and validation ensure that the software meets requirements and works correctly.",
+      "options": ["True", "False"],
+      "answer": "True"
+    },
+    {
+      "question": "System integration involves combining individual components to form a complete and functional system.",
+      "options": ["True", "False"],
+      "answer": "True"
+    }
+  ]
+}
